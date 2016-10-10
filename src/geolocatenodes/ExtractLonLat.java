@@ -42,8 +42,9 @@ public class ExtractLonLat {
             try {
                 String filename = "LonLat.txt";
                 try (FileWriter fw = new FileWriter(filename, true)) {
-                    fw.write("{lat: ");
-                    fw.append(match.group() + "},\n");
+                    //                    fw.write("{lat: ");
+                    //                    fw.append(match.group() + "},\n");
+                    fw.write(match.group() +"\n");
                 }
             } catch (IOException ioe) {
                 System.err.println("IOException: " + ioe.getMessage());

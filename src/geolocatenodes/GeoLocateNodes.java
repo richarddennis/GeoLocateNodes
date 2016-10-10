@@ -18,8 +18,8 @@ public class GeoLocateNodes {
      * @throws java.io.IOException
      */
     public static void main(String[] args) throws IOException {
-//        FormatFile format = new FormatFile();
-//        Locate obj = new Locate.convert();
+        FormatFile format = new FormatFile();
+        Locate obj = new Locate.convert();
         ExtractLonLat longlat = new ExtractLonLat();
 
     }
